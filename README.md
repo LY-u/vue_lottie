@@ -44,14 +44,14 @@ var animation = bodymovin.loadAnimation({
 })
 ```
 
-```
-container：动画容器，dom 元素
-path：从 AE 中导出的 json 文件
-renderer：动画格式
-loop：是否循环播放动画
-autoplay： 是否自动播放动画
-name：动画名称
-```
+- container：动画容器，dom 元素
+- path：从 AE 中导出的 json 文件
+- renderer：动画格式
+- loop：是否循环播放动画
+- autoplay： 是否自动播放动画
+- name：动画名称
+
+
 ### 动画实例的主要方法
 
 anim.play() — 播放动画。
@@ -115,3 +115,4 @@ anim.addEventListener('complete', function () {
     console.log('complete');
 });
 ```
+引自 [https://segmentfault.com/a/1190000018618944?utm_source=tag-newest](https://segmentfault.com/a/1190000018618944?utm_source=tag-newest)
